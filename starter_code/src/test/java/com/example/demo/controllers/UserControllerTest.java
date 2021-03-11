@@ -4,7 +4,6 @@ import com.example.demo.model.persistence.User;
 import com.example.demo.model.requests.CreateUserRequest;
 import junit.framework.TestCase;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

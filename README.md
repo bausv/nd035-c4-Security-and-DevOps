@@ -1,3 +1,11 @@
+# Authentication and Authorization
+
+## Write proper tests for the above module and meet an acceptable code coverage level.
+Code coverage of 60% is met through tests. The tests include sanity and regression test cases and take care of negative tests as well.
+
+**Coverage report from IntelliJ Idea**
+![coverage](idea-coverage.png)
+
 # Metrics, Dashboards and Alerts
 
 The code sets up at least one alert (of your choice) for the system. For example:
@@ -5,8 +13,13 @@ Create dashboard for success rate per minute of any one CreateUser and order, an
 
 Screenshots are provided showing some query results and the alert setup.
 
+**Dashboard in Splunk**
 ![dashboard](splunk-dashboard.png)
 
+**Dashboard/line chart configuration**
+![dashboard-config](splunk-dashboard-config.png)
+
+**Some events in Splunk**
 ![events](splunk-events.png)
 
 # eCommerce Application

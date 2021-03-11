@@ -81,18 +81,14 @@ public class Cart {
 		if(total == null) {
 			total = new BigDecimal(0);
 		}
-		total = total.add(item.getPrice());
+		setTotal(getTotal().add(item.getPrice()));
 	}
 	
 	public void removeItem(Item item) {
-		if(items == null) {
-			items = new ArrayList<>();
+		if(items != null && items.contains(item)) {
+			items.remove(item);
+			setTotal(getTotal().subtract(item.getPrice()));
 		}
-		items.remove(item);
-		if(total == null) {
-			total = new BigDecimal(0);
-		}
-		total = total.subtract(item.getPrice());
 	}
 
 	@Override
