@@ -22,6 +22,19 @@ Screenshots are provided showing some query results and the alert setup.
 **Some events in Splunk**
 ![events](splunk-events.png)
 
+# CI/CD
+## Demonstrate configuration and automation of the CI/CD pipeline.
+The submission manages build and deployment of the application with Jenkins:
+
+Submission includes logs or screenshot showing successful Jenkins build and project setup
+![](jenkins-config-01.png)
+![](jenkins-config-02.png)
+![](jenkins-config-03.png)
+![](jenkins-config-04.png)
+![](jenkins-config-05-1.png)
+![](jenkins-config-05-2.png)
+![](jenkins-config-06.png)
+
 # eCommerce Application
 
 In this project, you'll have an opportunity to demonstrate the security and DevOps skills that you learned in this lesson by completing an eCommerce application. You'll start with a template for the complete application, and your goal will be to take this template and add proper authentication and authorization controls so users can only access their data, and that data can only be accessed in a secure way. 
