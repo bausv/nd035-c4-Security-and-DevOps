@@ -45,7 +45,7 @@ public class ControllerIntegrationTest {
                 .contentType(MediaType.APPLICATION_JSON_UTF8).accept(MediaType.APPLICATION_JSON_UTF8))
                 .andExpect(status().isOk());
 
-        mvc.perform(get(new URI("/api/user/id/1")).accept(MediaType.APPLICATION_JSON_UTF8)).andExpect(status().isForbidden());
+        mvc.perform(get(new URI("/api/user/id/1")).accept(MediaType.APPLICATION_JSON_UTF8)).andExpect(status().isUnauthorized());
 
         LoginRequest lr = new LoginRequest(uuid, uuid);
         mvc.perform(post(new URI("/login")).content(jsonLR.write(lr).getJson()).contentType(MediaType.APPLICATION_JSON_UTF8).accept(MediaType.APPLICATION_JSON_UTF8)).andExpect(status().isOk());
