@@ -6,6 +6,8 @@ Code coverage of 60% is met through tests. The tests include sanity and regressi
 **Coverage report from IntelliJ Idea**
 ![coverage](idea-coverage.png)
 
+_see below for JaCoCo coverage report_
+
 # Metrics, Dashboards and Alerts
 
 The code sets up at least one alert (of your choice) for the system. For example:
@@ -42,6 +44,9 @@ Submission includes logs or screenshot showing successful Jenkins build and proj
 ![](jenkins-build-2.png)
 ![](jenkins-build-3.png)
 ![](jenkins-build-4.png)
+
+### Jenkins in Docker
+![](jenkins-in-docker.png)
 
 # eCommerce Application
 
