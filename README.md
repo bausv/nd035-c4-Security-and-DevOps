@@ -27,6 +27,8 @@ Screenshots are provided showing some query results and the alert setup.
 The submission manages build and deployment of the application with Jenkins:
 
 Submission includes logs or screenshot showing successful Jenkins build and project setup
+
+### Configuration
 ![](jenkins-config-01.png)
 ![](jenkins-config-02.png)
 ![](jenkins-config-03.png)
@@ -34,6 +36,12 @@ Submission includes logs or screenshot showing successful Jenkins build and proj
 ![](jenkins-config-05-1.png)
 ![](jenkins-config-05-2.png)
 ![](jenkins-config-06.png)
+
+### Build
+![](jenkins-build-1.png)
+![](jenkins-build-2.png)
+![](jenkins-build-3.png)
+![](jenkins-build-4.png)
 
 # eCommerce Application
 
