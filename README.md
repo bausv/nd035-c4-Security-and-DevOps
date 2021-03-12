@@ -1,3 +1,53 @@
+# Authentication and Authorization
+
+## Write proper tests for the above module and meet an acceptable code coverage level.
+Code coverage of 60% is met through tests. The tests include sanity and regression test cases and take care of negative tests as well.
+
+**Coverage report from IntelliJ Idea**
+![coverage](idea-coverage.png)
+
+_see below for JaCoCo coverage report_
+
+# Metrics, Dashboards and Alerts
+
+The code sets up at least one alert (of your choice) for the system. For example:
+Create dashboard for success rate per minute of any one CreateUser and order, and take a screenshot.
+
+Screenshots are provided showing some query results and the alert setup.
+
+**Dashboard in Splunk**
+![dashboard](splunk-dashboard.png)
+
+**Dashboard/line chart configuration**
+![dashboard-config](splunk-dashboard-config.png)
+
+**Some events in Splunk**
+![events](splunk-events.png)
+
+# CI/CD
+## Demonstrate configuration and automation of the CI/CD pipeline.
+The submission manages build and deployment of the application with Jenkins:
+
+Submission includes logs or screenshot showing successful Jenkins build and project setup
+
+### Configuration
+![](jenkins-config-01.png)
+![](jenkins-config-02.png)
+![](jenkins-config-03.png)
+![](jenkins-config-04.png)
+![](jenkins-config-05-1.png)
+![](jenkins-config-05-2.png)
+![](jenkins-config-06.png)
+
+### Build
+![](jenkins-build-1.png)
+![](jenkins-build-2.png)
+![](jenkins-build-3.png)
+![](jenkins-build-4.png)
+
+### Jenkins in Docker
+![](jenkins-in-docker.png)
+
 # eCommerce Application
 
 In this project, you'll have an opportunity to demonstrate the security and DevOps skills that you learned in this lesson by completing an eCommerce application. You'll start with a template for the complete application, and your goal will be to take this template and add proper authentication and authorization controls so users can only access their data, and that data can only be accessed in a secure way. 
